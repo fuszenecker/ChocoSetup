@@ -24,3 +24,4 @@
 * nswagstudio
 * azure-data-studio
 * nservicebus
+* protoc
