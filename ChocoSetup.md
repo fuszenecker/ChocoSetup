@@ -16,6 +16,7 @@
 * slack
 * sql-server-management-studio
 * visualstudio2017professional
+* visualstudio2019professional
 * vscode
 * llvm
 * gimp
