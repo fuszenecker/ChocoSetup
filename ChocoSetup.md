@@ -26,4 +26,3 @@
 * azure-data-studio
 * nservicebus
 * protoc
-* rust
