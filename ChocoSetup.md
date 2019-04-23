@@ -5,6 +5,7 @@
 * azure-data-studio
 * chocolatey
 * cmake
+* couchbase-server-community
 * curl
 * docker-desktop
 * docker-for-windows
