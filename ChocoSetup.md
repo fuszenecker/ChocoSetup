@@ -23,6 +23,7 @@
 * putty
 * slack
 * sql-server-management-studio
+* sql2012.localdb
 * sqlite
 * urlrewrite
 * visualstudio2017professional
