@@ -4,7 +4,7 @@
 * adobereader
 * azure-data-studio
 * chocolatey
-* cmake
+* (cmake)
 * couchbase-server-community
 * curl
 * docker-desktop
@@ -13,7 +13,7 @@
 * gimp
 * git
 * GoogleChrome
-* llvm
+* (llvm)
 * nodejs
 * notepadplusplus
 * nservicebus
