@@ -1,8 +1,8 @@
 # Visual Studio Code extensions
 
-* C/C++
+* (C/C++)
 * C#
-* CMake Tools
+* (CMake Tools)
 * Docker
 * ESLint
 * Kubernetes
