@@ -19,6 +19,7 @@
 * nservicebus
 * nswagstudio
 * nuget.commandline
+* poshgit
 * protoc
 * putty
 * slack
