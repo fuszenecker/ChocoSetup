@@ -10,6 +10,7 @@
 * Markdown TOC
 * markdownlint
 * Powershell
+* Remote Development
 * SQLite
 * vscode-proto3
 * YAML
