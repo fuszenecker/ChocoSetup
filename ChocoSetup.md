@@ -13,6 +13,7 @@
 * gimp
 * git
 * GoogleChrome
+* kubernetes-cli
 * (llvm)
 * nodejs
 * notepadplusplus
