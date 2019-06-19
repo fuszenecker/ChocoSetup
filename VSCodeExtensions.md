@@ -5,10 +5,12 @@
 * (CMake Tools)
 * Docker
 * ESLint
+* Ionide F#
 * Kubernetes
 * Markdown PDF
 * Markdown TOC
 * markdownlint
+* NuGet Package Manager
 * Powershell
 * Remote Development
 * SQLite
