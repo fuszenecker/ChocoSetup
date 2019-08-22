@@ -31,3 +31,4 @@
 * visualstudio2017professional
 * visualstudio2019professional
 * vscode
+* windbg
