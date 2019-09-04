@@ -11,6 +11,7 @@
 * Markdown TOC
 * markdownlint
 * NuGet Package Manager
+* PostgreSQL
 * Powershell
 * Remote Development
 * SQLite
