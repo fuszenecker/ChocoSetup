@@ -5,7 +5,7 @@
 * azure-data-studio
 * chocolatey
 * (cmake)
-* couchbase-server-community
+* (couchbase-server-community)
 * curl
 * docker-desktop
 * docker-for-windows
@@ -13,14 +13,14 @@
 * gimp
 * git
 * GoogleChrome
-* kubernetes-cli
+* (kubernetes-cli)
 * (llvm)
-* nodejs-lts (expo miatt)
+* nodejs
 * notepadplusplus
-* nservicebus
+* (nservicebus)
 * nswagstudio
 * nuget.commandline
-* poshgit
+* (poshgit)
 * protoc
 * putty
 * slack
@@ -28,7 +28,7 @@
 * sql2012.localdb
 * sqlite
 * urlrewrite
-* visualstudio2017professional
+* (visualstudio2017professional)
 * visualstudio2019professional
 * vscode
 * windbg
