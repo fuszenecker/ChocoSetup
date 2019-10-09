@@ -15,7 +15,7 @@
 * GoogleChrome
 * (kubernetes-cli)
 * (llvm)
-* nodejs
+* nodejs (vagy nodejs-lts)
 * notepadplusplus
 * (nservicebus)
 * nswagstudio
