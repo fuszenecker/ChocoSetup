@@ -3,6 +3,7 @@
 * 7zip
 * adobereader
 * azure-data-studio
+* brave
 * chocolatey
 * (cmake)
 * (couchbase-server-community)
