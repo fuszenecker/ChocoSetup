@@ -14,6 +14,7 @@
 * gimp
 * git
 * GoogleChrome
+* haskell-stack
 * (kubernetes-cli)
 * (llvm)
 * nodejs (vagy nodejs-lts)
