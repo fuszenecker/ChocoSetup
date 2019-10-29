@@ -25,6 +25,7 @@
 * (poshgit)
 * protoc
 * putty
+* (sdformatter --> Raspberry PI)
 * slack
 * sql-server-management-studio
 * sql2012.localdb
