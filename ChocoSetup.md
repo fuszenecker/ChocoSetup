@@ -34,4 +34,5 @@
 * (visualstudio2017professional)
 * visualstudio2019professional
 * vscode
+* (win32diskimager --> Raspberry PI)
 * windbg
