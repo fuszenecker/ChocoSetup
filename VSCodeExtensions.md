@@ -5,7 +5,7 @@
 * (CMake Tools)
 * Docker
 * ESLint
-* (Haskero vel Haskelly --> aliquod utitur projectum "intero"; ad Haskellem developpandum)
+* (Haskero vel Haskelly --> quod utitur projectum "intero"; ad Haskellem developpandum)
 * (Ionide F#)
 * (Kubernetes)
 * Markdown PDF
