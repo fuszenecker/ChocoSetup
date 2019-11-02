@@ -5,7 +5,7 @@
 * (CMake Tools)
 * Docker
 * ESLint
-* (Haskell Language Server ?)
+* (Haskero --> ad Haskell)
 * (Ionide F#)
 * (Kubernetes)
 * Markdown PDF
