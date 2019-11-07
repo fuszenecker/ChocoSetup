@@ -6,6 +6,7 @@
 * Docker
 * ESLint
 * (Haskero vel Haskelly --> quod utitur projectum "intero"; ad Haskellem developpandum)
+* IntelliCode
 * (Ionide F#)
 * (Kubernetes)
 * Markdown PDF
