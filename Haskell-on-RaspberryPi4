@@ -1,0 +1,8 @@
+curl -sSL https://get.haskellstack.org/ | sudo sh
+stack setup ghc-8.6.3
+cd ~/.stack/programs/arm-linux/ghc-8.6.3/bin
+mv ghc-8.6.3 ghc-8.6.3-bin
+touch ghc-8.6.3
+chmod +x ghc-8.6.3
+echo '#!/bin/sh' >> ghc-8.6.3
+echo '~/.stack/programs/arm-linux/ghc-8.6.3/bin/ghc-8.6.3-bin -opta-march=armv7-a $@' >> ghc-8.6.3
