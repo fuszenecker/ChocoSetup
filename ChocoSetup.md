@@ -14,10 +14,10 @@
 * gimp
 * git
 * GoogleChrome
-* (haskell-stack --> cabal + ghc)
+* haskell-stack
 * (kubernetes-cli)
 * (llvm)
-* nodejs (vagy nodejs-lts)
+* nodejs (aut nodejs-lts)
 * notepadplusplus
 * (nservicebus)
 * nswagstudio
@@ -31,7 +31,7 @@
 * sql2012.localdb
 * sqlite
 * urlrewrite
-* (visualstudio2017professional)
+* veracrypt
 * visualstudio2019professional
 * vscode
 * (win32diskimager --> Raspberry PI)
