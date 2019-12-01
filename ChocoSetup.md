@@ -14,7 +14,7 @@
 * gimp
 * git
 * GoogleChrome
-* haskell-stack, cabal, ghc
+* haskell-stack, cabal, ghc (choco install ghc --version=8.6.5)
 * (kubernetes-cli)
 * (llvm)
 * nodejs (aut nodejs-lts)
