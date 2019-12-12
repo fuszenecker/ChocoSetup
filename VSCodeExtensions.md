@@ -1,4 +1,4 @@
-# Visual Studio Code extensions
+# Visual Studio Code extensiones
 
 * (C/C++)
 * C#
