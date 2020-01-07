@@ -5,7 +5,9 @@
 * (CMake Tools)
 * Docker
 * ESLint
-* (Haskero vel Haskelly --> quod utitur projectum "intero"; ad Haskellem developpandum)
+* (Haskell Syntax Highlighting)
+* (hlint)
+* (Simple GHC (Haskell) Integration)
 * IntelliCode
 * (Ionide F#)
 * (Kubernetes)
@@ -17,5 +19,7 @@
 * Powershell
 * Remote Development
 * SQLite
+* TSLint
+* Visual Studio IntelliCode
 * vscode-proto3
 * YAML
