@@ -4,13 +4,6 @@ allow-newer: true
 colour: always
 recommend-stack-upgrade: true
 
-#ghc-options:
-#    # All packages
-#    "$locals": -Wall
-#    "$targets": -Werror
-#    "$everything": -O2
-#    some-package: -DSOME_CPP_FLAG
-
 templates:
     params:
         author-name: Róbert Fuszenecker
