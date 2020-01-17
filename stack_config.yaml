@@ -4,7 +4,7 @@ allow-newer: true
 colour: always
 recommend-stack-upgrade: true
 
-# ghc-options:
+#ghc-options:
 #    # All packages
 #    "$locals": -Wall
 #    "$targets": -Werror
