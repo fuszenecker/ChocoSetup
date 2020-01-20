@@ -7,7 +7,7 @@
 * ESLint
 * (Haskell Syntax Highlighting)
 * (hlint)
-* (Simple GHC (Haskell) Integration)
+* (Simple GHC (Haskell) Integration || Simple GHC (Haskell) Integration && hlint)
 * IntelliCode
 * (Ionide F#)
 * (Kubernetes)
