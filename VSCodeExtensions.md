@@ -20,6 +20,5 @@
 * Remote Development
 * SQLite
 * TSLint
-* Visual Studio IntelliCode
 * vscode-proto3
 * YAML
