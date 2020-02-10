@@ -3,7 +3,7 @@
 * C#
 * Docker
 * ESLint
-* Haskell Language Server && hlint; meminerim: `echo "cradle: { stack: {}}" > hie.yaml`
+* Haskell Language Server && hlint; meminerim: `echo "cradle: { stack: {} }" > hie.yaml`
 * IntelliCode
 * (Ionide F#)
 * (Kubernetes)
