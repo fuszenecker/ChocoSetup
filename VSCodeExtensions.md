@@ -1,13 +1,9 @@
 # Visual Studio Code extensiones
 
-* (C/C++)
 * C#
-* (CMake Tools)
 * Docker
 * ESLint
-* (Haskell Syntax Highlighting)
-* (hlint)
-* (Simple GHC (Haskell) Integration || Simple GHC (Haskell) Integration && hlint)
+* Haskell Language Server && hlint; meminerim: `echo "cradle: { stack: {}}" > hie.yaml`
 * IntelliCode
 * (Ionide F#)
 * (Kubernetes)
