@@ -11,18 +11,16 @@
 * gimp
 * git
 * GoogleChrome
-* haskell-stack, cabal, ghc (choco install ghc --version=8.8.2), (llvm)
+* graphviz
+* haskell-stack, cabal, ghc, (llvm)
 * (kubernetes-cli)
 * nodejs (aut nodejs-lts)
 * notepadplusplus
-* nswagstudio
 * nuget.commandline
 * (poshgit)
-* protoc
 * putty
 * (sdformatter --> Raspberry PI)
 * slack
-* sql-server-management-studio
 * sqlite
 * veracrypt
 * vscode
