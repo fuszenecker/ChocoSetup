@@ -4,6 +4,24 @@ allow-newer: true
 colour: always
 recommend-stack-upgrade: true
 
+setup-info: "https://github.com/commercialhaskell/stackage-content/blob/master/stack/stack-setup-2.yaml"
+
+#setup-info:
+#  ghc:
+#    linux-aarch64-tinfo6:
+#        8.8.2:
+#            # Mirrored from http://downloads.haskell.org/~ghc/8.8.2/ghc-8.8.2-aarch64-deb9-linux.tar.xz
+#            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.8.2-release/ghc-8.8.2-aarch64-deb9-linux.tar.xz"
+#            content-length: 300890924
+#            sha1: ffb1d0d8c2f67ad7bf5b66daa92eb3fe82f03648
+#            sha256: b4b66b8d38a8b6d9ab4ce9c27a34d016c55729e7cba4385d4e4c755b937457f4
+#        8.8.3:
+#            # Mirrored from http://downloads.haskell.org/~ghc/8.8.3/ghc-8.8.3-aarch64-deb9-linux.tar.xz
+#            url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.8.3-release/ghc-8.8.3-aarch64-deb9-linux.tar.xz"
+#            content-length: 300943608
+#            sha1: c533c36439c13b06325aa9968d51e5078a0e16bd
+#            sha256: 2a6821d0e7326cfa7670851702924bbab3b092415ba41247c37419158327eed9
+
 templates:
     params:
         author-name: Róbert Fuszenecker
