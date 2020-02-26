@@ -4,7 +4,7 @@ allow-newer: true
 colour: always
 recommend-stack-upgrade: true
 
-setup-info: "https://github.com/commercialhaskell/stackage-content/blob/master/stack/stack-setup-2.yaml"
+#setup-info: "https://github.com/commercialhaskell/stackage-content/blob/master/stack/stack-setup-2.yaml"
 
 #setup-info:
 #  ghc:
