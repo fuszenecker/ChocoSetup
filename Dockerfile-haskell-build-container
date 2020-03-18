@@ -6,6 +6,7 @@ RUN tar xaf ghc-8.10.0.20200123-armv7-deb9-linux.tar.xz
 WORKDIR /ghc-8.10.0.20200123
 RUN ./configure --prefix=/opt/ghc
 RUN make install
+RUN rm -rf /opt/ghc/share
 
 FROM debian:bullseye-slim
 RUN apt update
@@ -18,6 +19,7 @@ ENV PATH="/opt/ghc/bin:${PATH}"
 ENTRYPOINT stack build --allow-different-user
 
 # docker build -t haskell-build-4 .
+# ---
 # pwd=$(pwd)
 #
 # docker run -it --rm -v $pwd:/src -v /home/fuszenecker/.stack:/root/.stack -w /src haskell-build-4
