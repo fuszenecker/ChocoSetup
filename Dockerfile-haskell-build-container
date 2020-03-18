@@ -14,4 +14,10 @@ RUN apt install -y make gcc libtinfo5 wget llvm-9
 RUN wget -qO- https://get.haskellstack.org/ | sh
 COPY --from=compiler-setup /opt /opt
 ENV PATH="/opt/ghc/bin:${PATH}"
-ENTRYPOINT /bin/bash
+#ENTRYPOINT /bin/bash
+ENTRYPOINT stack build --allow-different-user
+
+# docker build -t haskell-build-4 .
+# pwd=$(pwd)
+#
+# docker run -it --rm -v $pwd:/src -v /home/fuszenecker/.stack:/root/.stack -w /src haskell-build-4
