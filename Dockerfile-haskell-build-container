@@ -1,0 +1,18 @@
+FROM debian AS compiler-setup
+RUN apt update
+RUN apt install -y wget xz-utils make gcc libtinfo5
+RUN wget https://downloads.haskell.org/ghc/8.10.1-rc1/ghc-8.10.0.20200123-armv7-deb9-linux.tar.xz
+RUN tar xaf ghc-8.10.0.20200123-armv7-deb9-linux.tar.xz
+WORKDIR /ghc-8.10.0.20200123
+RUN ./configure --prefix=/opt/ghc
+RUN make install
+
+FROM debian
+RUN apt update
+RUN apt -y upgrade
+RUN apt install -y make gcc libtinfo5 wget
+RUN wget -qO- https://get.haskellstack.org/ | sh
+COPY --from=compiler-setup /opt /opt
+ENV PATH="/opt/ghc/bin:${PATH}"
+ENTRYPOINT /bin/bash
+
