@@ -1,3 +1,5 @@
+# Dockerfile
+
 FROM debian:bullseye-slim AS compiler-setup
 RUN apt update
 RUN apt install -y wget lzip make gcc libtinfo5 llvm-9-dev
@@ -18,13 +20,15 @@ ENV PATH="/opt/ghc/bin:${PATH}"
 #ENTRYPOINT /bin/bash
 ENTRYPOINT stack build --allow-different-user
 
+
 # Build the image:
 # ----------------
-#
-# docker build -t haskell-build .
-#
-#
+
+docker build -t haskell-build .
+
+
 # Run the image:
 # --------------
-# 
-# docker run -it --rm -v $(pwd):/src -v /home/fuszenecker/.stack:/root/.stack -w /src haskell-build
+
+#!/usr/bin/env sh
+docker run -it --rm -v $(pwd):/src -v /home/fuszenecker/.stack:/root/.stack -w /src haskell-build
