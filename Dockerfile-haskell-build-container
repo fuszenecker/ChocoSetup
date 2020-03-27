@@ -3,7 +3,7 @@
 FROM debian:bullseye-slim AS compiler-setup
 RUN apt update
 RUN apt install -y wget lzip make gcc libtinfo5 llvm-9-dev
-RUN wget https://downloads.haskell.org/ghc/8.10.1/ghc-8.10.1-armv7-deb9-linux.ta                                                                                            r.lz
+RUN wget https://downloads.haskell.org/ghc/8.10.1/ghc-8.10.1-armv7-deb9-linux.tar.lz
 RUN tar xaf ghc-8.10.1-armv7-deb9-linux.tar.lz
 WORKDIR /ghc-8.10.1
 RUN ./configure --prefix=/opt/ghc
