@@ -18,8 +18,13 @@ ENV PATH="/opt/ghc/bin:${PATH}"
 #ENTRYPOINT /bin/bash
 ENTRYPOINT stack build --allow-different-user
 
-# docker build -t haskell-build .
-# ---
-# pwd=$(pwd)
+# Build the image:
+# ----------------
 #
-# docker run -it --rm -v $pwd:/src -v /home/fuszenecker/.stack:/root/.stack -w /src haskell-build
+# docker build -t haskell-build .
+#
+#
+# Run the image:
+# --------------
+# 
+# docker run -it --rm -v $(pwd):/src -v /home/fuszenecker/.stack:/root/.stack -w /src haskell-build
