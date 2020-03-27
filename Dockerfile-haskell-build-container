@@ -33,5 +33,5 @@ docker build -t haskell-build .
 #!/usr/bin/env sh
 docker run -it --rm -v $(pwd):/src -v /home/fuszenecker/.stack:/root/.stack -w /src haskell-build
 
-chown fuszenecker -R ~/.stack/*
-chown fuszenecker -R .stack-work
+sudo chown fuszenecker -R ~/.stack/*
+sudo chown fuszenecker -R .stack-work
