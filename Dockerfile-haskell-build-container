@@ -32,7 +32,9 @@ docker build -t haskell-build .
 # --------------
 
 #!/usr/bin/env sh
-docker run -it --rm -v $(pwd):/src -v /home/fuszenecker/.stack:/root/.stack -w /src haskell-build $1
+docker run -it --rm -v $(pwd):/src -v /home/fuszenecker/.stack:/root/.stack -v /home/fuszenecker/.local:/root/local -w /src haskell-build $*
 
 sudo chown fuszenecker -R ~/.stack/*
 sudo chown fuszenecker -R .stack-work
+sudo chown fuszenecker -R ~/.local
+
