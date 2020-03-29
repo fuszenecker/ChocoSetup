@@ -36,4 +36,4 @@ docker run -it --rm -v $(pwd):/src -v /home/$(whoami)/.stack:/root/.stack -v /ho
 sudo chown $(whoami) -R ~/.stack/*
 sudo chown $(whoami) -R .stack-work
 sudo chown $(whoami) -R ~/.local
-sudo chown $(whoami) stack.yaml.lock
+sudo chown $(whoami) stack.yaml.lock *.cabal
