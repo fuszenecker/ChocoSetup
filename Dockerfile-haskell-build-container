@@ -18,9 +18,7 @@ RUN apt install -y make gcc libtinfo5 wget llvm-9
 RUN wget -qO- https://get.haskellstack.org/ | sh
 COPY --from=compiler-setup /opt /opt
 ENV PATH="/opt/ghc/bin:${PATH}"
-# ENTRYPOINT /bin/bash
-# ENTRYPOINT stack build --allow-different-user
-CMD ["stack", "build", "--allow-different-user"]
+CMD ["stack", "install", "--allow-different-user"]
 
 
 # Build the image:
@@ -33,9 +31,9 @@ docker build -t haskell-build .
 # --------------
 
 #!/usr/bin/env sh
-docker run -it --rm -v $(pwd):/src -v /home/fuszenecker/.stack:/root/.stack -v /home/fuszenecker/.local:/root/.local -w /src haskell-build $*
+docker run -it --rm -v $(pwd):/src -v /home/$(whoami)/.stack:/root/.stack -v /home/$(whoami)/.local:/root/.local -w /src haskell-build $*
 
-sudo chown fuszenecker -R ~/.stack/*
-sudo chown fuszenecker -R .stack-work
-sudo chown fuszenecker -R ~/.local
-sudo chown fuszenecker stack.yaml.lock
+sudo chown $(whoami) -R ~/.stack/*
+sudo chown $(whoami) -R .stack-work
+sudo chown $(whoami) -R ~/.local
+sudo chown $(whoami) stack.yaml.lock
