@@ -4,7 +4,7 @@
 FROM debian:bullseye-slim
 RUN apt update
 RUN apt -y upgrade
-RUN apt install -y curl make llvm-9-dev
+RUN apt install -y curl make llvm-9-dev libtinfo5
 RUN curl -sSL https://get.haskellstack.org/ | sh
 CMD ["stack", "install", "--allow-different-user"]
 
