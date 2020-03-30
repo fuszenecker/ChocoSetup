@@ -12,7 +12,7 @@
 * git
 * GoogleChrome
 * graphviz
-* haskell-stack, cabal, ghc, (llvm)
+* haskell-stack
 * (kubernetes-cli)
 * nodejs (aut nodejs-lts)
 * notepadplusplus
@@ -20,7 +20,6 @@
 * (poshgit)
 * putty
 * (sdformatter --> Raspberry PI)
-* slack
 * sqlite
 * veracrypt
 * vscode
