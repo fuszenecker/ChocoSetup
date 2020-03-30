@@ -9,13 +9,14 @@ RUN curl -sSL https://get.haskellstack.org/ | sh
 CMD ["stack", "install", "--allow-different-user"]
 
 
-# Build the image:
-# ----------------
+# Build the image
+# ---------------
 
 docker build -t haskell-build .
 
 
-# Stact config.yaml:
+# Stack config.yaml
+# -----------------
 
 setup-info:
   ghc:
@@ -28,8 +29,8 @@ setup-info:
         sha256: afe1bde2b0d6deb0320b9460fffe5d9427e302df85aec866b9c1458777d52b28
 
 
-# Run the image:
-# --------------
+# Run the image
+# -------------
 
 #!/usr/bin/env sh
 docker run -it --rm -v $(pwd):/src -v /home/$(whoami)/.stack:/root/.stack -v /home/$(whoami)/.local:/root/.local -w /src haskell-build $*
