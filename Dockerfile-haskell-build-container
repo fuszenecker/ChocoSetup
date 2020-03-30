@@ -15,6 +15,19 @@ CMD ["stack", "install", "--allow-different-user"]
 docker build -t haskell-build .
 
 
+# Stact config.yaml:
+
+setup-info:
+  ghc:
+    linux-armv7-tinfo6:
+      8.10.1:
+        # Mirrored from http://downloads.haskell.org/~ghc/8.10.1/ghc-8.10.1-armv7-deb9-linux.tar.xz
+        url: "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.10.1-release/ghc-8.10.1-armv7-deb9-linux.tar.xz"
+        content-length: 342015984
+        sha1: 8a84cb1f08cbf29e4d7c3958754cd1d855be9999
+        sha256: afe1bde2b0d6deb0320b9460fffe5d9427e302df85aec866b9c1458777d52b28
+
+
 # Run the image:
 # --------------
 
