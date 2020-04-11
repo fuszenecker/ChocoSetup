@@ -6,7 +6,7 @@ RUN apt update
 RUN apt -y upgrade
 RUN apt install -y curl make llvm-9-dev libtinfo5
 RUN curl -sSL https://get.haskellstack.org/ | sh
-CMD ["stack", "install", "--allow-different-user", "--ghc-options", "'-optl-static -fPIC -O'"]
+CMD ["stack", "install", "--allow-different-user", "--ghc-options", "-optl-static -fPIC -O"]
 
 
 # Build the image
