@@ -1,20 +1,21 @@
 # Visual Studio Code extensiones
 
-* C#
+* (C#)
 * Docker
 * ESLint
-* Haskell Language Server && hlint; meminerim: `echo "cradle: { stack: {} }" > hie.yaml`
-* IntelliCode
+* Graphviz (dot) language support for Visual Studio Code
+* Graphviz Markdown Preview
+* (Haskell Language Server && hlint)
 * (Ionide F#)
 * (Kubernetes)
-* Markdown PDF
-* Markdown TOC
+* Markdown All in One
 * markdownlint
-* NuGet Package Manager
+* (NuGet Package Manager)
 * PostgreSQL
 * Powershell
 * Remote Development
 * SQLite
 * TSLint
+* (Visual Studio IntelliCode)
 * vscode-proto3
 * YAML
