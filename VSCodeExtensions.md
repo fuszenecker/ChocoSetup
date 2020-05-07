@@ -6,7 +6,7 @@
 * Graphviz (dot) language support for Visual Studio Code
 * Graphviz Markdown Preview
 * ~~(Haskell Language Server && hlint)~~
-* (Ionide F#)
+* ~~(Ionide F#)~~
 * (Kubernetes)
 * Markdown All in One
 * markdownlint
