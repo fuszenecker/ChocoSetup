@@ -5,7 +5,7 @@
 * ESLint
 * Graphviz (dot) language support for Visual Studio Code
 * Graphviz Markdown Preview
-* (Haskell Language Server && hlint)
+* ~~(Haskell Language Server && hlint)~~
 * (Ionide F#)
 * (Kubernetes)
 * Markdown All in One
@@ -14,6 +14,7 @@
 * PostgreSQL
 * Powershell
 * Remote Development
+* Simple GHC (Haskell) Integration et hlint
 * SQLite
 * TSLint
 * (Visual Studio IntelliCode)
