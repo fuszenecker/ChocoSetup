@@ -1,3 +1,6 @@
+$HOME/.ghc/ghci.conf
+--------------------
+
 :set prompt "\x03BB> "
 :set prompt-cont " > "
 
