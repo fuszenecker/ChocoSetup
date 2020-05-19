@@ -12,7 +12,6 @@
 * git
 * GoogleChrome
 * graphviz
-* haskell-stack
 * (kubernetes-cli)
 * nodejs (aut nodejs-lts)
 * notepadplusplus
