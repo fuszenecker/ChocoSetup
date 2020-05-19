@@ -1,6 +1,7 @@
 # Visual Studio Code extensiones
 
 * (C#)
+* CodeLLDB
 * Docker
 * ESLint
 * Graphviz (dot) language support for Visual Studio Code
@@ -14,7 +15,8 @@
 * PostgreSQL
 * Powershell
 * Remote Development
-* Simple GHC (Haskell) Integration et hlint
+* Rust (nomen vetus: Rust Language Server)
+* ~~Simple GHC (Haskell) Integration et hlint~~
 * SQLite
 * TSLint
 * (Visual Studio IntelliCode)
