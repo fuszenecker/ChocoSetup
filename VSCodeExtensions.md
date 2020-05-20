@@ -1,21 +1,38 @@
 # Visual Studio Code extensiones
 
-* (C#)
-* CodeLLDB
+## Generalia
+
 * Docker
-* ESLint
 * Graphviz (dot) language support for Visual Studio Code
 * Graphviz Markdown Preview
 * (Kubernetes)
 * Markdown All in One
 * markdownlint
-* (NuGet Package Manager)
 * PostgreSQL
 * Powershell
 * Remote Development
-* Rust (nomen vetus: Rust Language Server)
 * SQLite
-* TSLint
-* (Visual Studio IntelliCode)
 * vscode-proto3
 * YAML
+
+## C#
+
+* C#
+* NuGet Package Manager
+* Visual Studio IntelliCode
+
+## Haskell
+
+* hlint
+* Haskell Language Server
+* aut Simple GHC (Haskell) Integration
+
+## JavaScript
+
+* ESLint
+* TSLint
+
+## Rust
+
+* CodeLLDB
+* Rust (nomen vetus: Rust Language Server)
