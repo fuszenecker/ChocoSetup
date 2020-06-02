@@ -23,6 +23,7 @@ Commands
 --------
 
 ```
+docker volume create tidb
 docker build -t tidb .
-docker run -it --rm -p 4000:4000 -p 2379:2379 tidb
+docker run -it --rm -p 4000:4000 -p 2379:2379 -v tidb:/data tidb
 ```
