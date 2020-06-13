@@ -18,6 +18,7 @@
 * nuget.commandline
 * (poshgit)
 * putty
+* python
 * rustup.install
 * (sdformatter --> Raspberry PI)
 * sqlite
