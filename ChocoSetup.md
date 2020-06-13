@@ -18,8 +18,10 @@
 * nuget.commandline
 * (poshgit)
 * putty
+* rustup.install
 * (sdformatter --> Raspberry PI)
 * sqlite
 * veracrypt
+* vlc
 * vscode
 * (win32diskimager --> Raspberry PI)
