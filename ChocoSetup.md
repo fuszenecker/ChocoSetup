@@ -6,7 +6,6 @@
 * chocolatey
 * curl
 * docker-desktop
-* docker-for-windows
 * dotnetcore-sdk
 * gimp
 * git
