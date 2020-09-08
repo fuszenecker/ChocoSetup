@@ -8,6 +8,7 @@
 * (Kubernetes)
 * Markdown All in One
 * markdownlint
+* Mardown PDF (yzane)
 * PostgreSQL
 * Powershell
 * Remote Development
