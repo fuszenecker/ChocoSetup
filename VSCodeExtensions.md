@@ -37,3 +37,4 @@
 
 * CodeLLDB
 * Rust (nomen vetus: Rust Language Server)
+* rust-analyzer (multo melior est quam Rust).
