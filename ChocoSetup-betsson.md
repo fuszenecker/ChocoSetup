@@ -12,6 +12,7 @@ chocolatey-dotnetfx.extension 1.0.1
 chocolatey-visualstudio.extension 1.8.1
 chocolatey-windowsupdate.extension 1.0.4
 curl 7.70.0
+dacfx-18
 docker-desktop 2.3.0.2
 docker-for-windows 99.0.0.0
 DotNet4.5.2 4.5.2.20140902
