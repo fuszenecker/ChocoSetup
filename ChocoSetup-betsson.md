@@ -69,4 +69,5 @@ vnc-viewer 6.20.113
 vscode 1.45.1
 vscode.install 1.45.1
 windbg 10.0.10586.15
+postman
 ```
