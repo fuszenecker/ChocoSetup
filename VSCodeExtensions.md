@@ -24,7 +24,7 @@
 
 ## Haskell
 
-* hlint
+* haskell-linter aut hlint
 * ~Haskell Language Server~
 * Simple GHC (Haskell) Integration
 
