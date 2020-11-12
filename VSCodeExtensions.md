@@ -25,8 +25,8 @@
 ## Haskell
 
 * hlint
-* Haskell Language Server
-* aut Simple GHC (Haskell) Integration
+* ~Haskell Language Server~
+* Simple GHC (Haskell) Integration
 
 ## JavaScript
 
