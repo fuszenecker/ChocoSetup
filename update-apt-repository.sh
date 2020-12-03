@@ -1,4 +1,4 @@
-  #!/bin/sh
+#!/bin/sh
 
 # Variables
 SOURCE_FOLDER=~/dev
