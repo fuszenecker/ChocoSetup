@@ -9,6 +9,7 @@
 * Markdown All in One
 * markdownlint
 * Mardown PDF (yzane)
+* Paste JSON as Code
 * PostgreSQL
 * Powershell
 * Remote Development
