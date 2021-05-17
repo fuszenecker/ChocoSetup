@@ -12,6 +12,7 @@
 * GoogleChrome
 * graphviz
 * (kubernetes-cli)
+* microsoft-windows-terminal
 * nodejs (aut nodejs-lts)
 * notepadplusplus
 * nuget.commandline
