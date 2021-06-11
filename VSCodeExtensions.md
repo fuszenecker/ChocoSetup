@@ -23,7 +23,6 @@
 * C#
 * NuGet Package Manager
 * Roslynator
-* Visual Studio IntelliCode
 
 ## Haskell
 
