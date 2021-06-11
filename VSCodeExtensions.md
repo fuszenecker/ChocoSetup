@@ -13,6 +13,7 @@
 * PostgreSQL
 * Powershell
 * Remote Development
+* REST Client
 * SQLite
 * vscode-proto3
 * YAML
