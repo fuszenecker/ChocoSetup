@@ -15,6 +15,7 @@
 * Remote Development
 * REST Client
 * SQLite
+* vscode-icons
 * vscode-proto3
 * YAML
 
@@ -22,6 +23,7 @@
 
 * C#
 * NuGet Package Manager
+* Paste JSON as Code
 * Roslynator
 
 ## Haskell
