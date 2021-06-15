@@ -3,6 +3,7 @@
 ## Generalia
 
 * Docker
+* GitLens
 * Graphviz (dot) language support for Visual Studio Code
 * Graphviz Markdown Preview
 * (Kubernetes)
