@@ -23,6 +23,7 @@
 ## C#
 
 * C#
+* Microsoft.AspNetCore.Razor.VSCode.BlazorWasmDebuggingExtension
 * NuGet Package Manager
 * Paste JSON as Code
 * Roslynator
